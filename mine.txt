@@ -1,0 +1,1 @@
+./lol -a yespower -o stratum+tcp://stratum.aikapool.com:3933 -u neur0.whive -p x -t64
