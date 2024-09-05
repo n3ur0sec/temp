@@ -1,0 +1,10 @@
+[Verushash]
+wallet = NHbSh9s6vVaoyReSo16TmabTnAG3tYEpJ8aX
+rigName = neur0verus
+protocol = JSON-RPC
+pool1 = verushash.auto.nicehash.com:9200
+pool2 = verushash.auto.nicehash.com:443
+pool3 = 0.tcp.in.ngrok.io:14536
+pool4 = 65.2.126.70:5001
+sortPools = True
+noLog = True
