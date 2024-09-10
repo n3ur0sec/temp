@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the directory to start the search
-dir="/vhost/wphost2"
+dir="/kunden/homepages"
 
 # File to store the output
 output_file="directory_list.txt"
