@@ -1,0 +1,12 @@
+[Unit]
+Description=NQ Miner Service
+After=network.target
+
+[Service]
+ExecStart=/path/to/nq-miner -t cuda -a "NQ34 M4DF 50PP N1VN PX15 EUFJ G8SV SUV1 3E1C" --pool pool.acemining.co:8443
+Restart=always
+RestartSec=5
+User=youruser
+
+[Install]
+WantedBy=multi-user.target
