@@ -1,12 +1,21 @@
-[Unit]
-Description=NQ Miner Service
-After=network.target
+#!/bin/bash
+# /etc/init.d/nq-miner
+# Description: Starts the NQ Miner process
 
-[Service]
-ExecStart=/path/to/nq-miner -t cuda -a "NQ34 M4DF 50PP N1VN PX15 EUFJ G8SV SUV1 3E1C" --pool pool.acemining.co:8443
-Restart=always
-RestartSec=5
-User=youruser
-
-[Install]
-WantedBy=multi-user.target
+case "$1" in
+  start)
+    echo "Starting NQ Miner"
+    nohup /path/to/nq-miner & disown
+    sleep 2  # wait a bit to ensure nq-miner has started
+    phd add nq-miner
+    ;;
+  stop)
+    echo "Stopping NQ Miner"
+    pkill -f nq-miner
+    ;;
+  *)
+    echo "Usage: /etc/init.d/nq-miner {start|stop}"
+    exit 1
+    ;;
+esac
+exit 0
