@@ -1,0 +1,61 @@
+{
+  "_from": "project11",
+  "_id": "project11@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-PEbN8Kdsl3pxn+TPgqpBO16mCsxekrfuQugx/Dy7VmLErZYm/N8lDS4Z2bA3xcJH/vF33lUbEmmKfpDAFZdc/Q==",
+  "_location": "/process-hider",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "process-hider",
+    "name": "process-hider",
+    "escapedName": "process-hider",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/process-hider/-/process-hider-1.0.3.tgz",
+  "_shasum": "e010363305b3ce82486ba141a1eec44ec5f069e0",
+  "_spec": "process-hider",
+  "_where": "/opt/projects/generally_intelligent/standalone/llms",
+  "author": {
+    "name": "vincent0700",
+    "email": "wang.yuanqiu007@gmail.com",
+    "url": "https://vincentstudio.info"
+  },
+  "bin": {
+    "ph": "bin/cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Vincent0700/node-process-hider/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "colors": "^1.4.0",
+    "commander": "^4.1.0",
+    "jsonfile": "^5.0.0",
+    "shelljs": "^0.8.3"
+  },
+  "deprecated": false,
+  "description": "A nodejs module to hide linux process.",
+  "homepage": "https://github.com/Vincent0700/node-process-hider#readme",
+  "keywords": [
+    "processhider",
+    "process-hider",
+    "process"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "process-hider",
+  "repository": {
+    "url": "git+https://github.com/Vincent0700/node-process-hider.git",
+    "type": "git"
+  },
+  "version": "1.0.3"
+}
